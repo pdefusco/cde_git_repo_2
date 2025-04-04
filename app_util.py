@@ -39,4 +39,4 @@
 
 def util_function(df):
 
-    return df.filter(df["value"] > 1).select("id", "value")
+    return df.filter(df["value"] > 3).select("id", "value")
